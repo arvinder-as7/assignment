@@ -1,0 +1,57 @@
+input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    overflow: hidden;
+}
+
+input[type=button]{
+    background-color: #1B3987;
+    border: none;
+    color: white;
+    padding: 14px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    width: 25%;
+}
+
+#short{
+    float: right;
+}
+
+input[type=submit]:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#url-input{
+    overflow: hidden;
+    padding-right: .5em;
+}
+
+#main-div{
+    background-color: #0b1736;
+    width: 92%;
+    padding: 50px;
+}
+
+#bottom-div{
+    margin-left: 40%;
+}
+
+#short-url{
+    display: none;
+    flex-wrap: wrap;
+    align-content: space-between;
+    background: white;
+    border-radius: 4px;
+    width: 98%;
+    padding: 10px;
+}

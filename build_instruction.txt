@@ -1,0 +1,11 @@
+requirements - python 3.7, postgres and redis should be running on local port 5432 and 6379
+
+All below instruction in tinyurl directory
+1. create virtual env and run it
+2. pip install requirements.txt in that virtual env
+3. Add the password for connecting postgres to config.py in tinyurl/instance directory
+4. run command - set FLASK_APP=run
+5. run command - flask run
+
+
+tinyurl_ui contains main.html is the file for shortening url. clicking on All shorten url button will show you all so far URL.
